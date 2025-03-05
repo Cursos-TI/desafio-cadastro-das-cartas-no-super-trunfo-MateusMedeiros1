@@ -80,13 +80,13 @@ int main() {
     printf(" O valor do super poder 1 (%.2f)\n", superPoder1);
     printf(" O valor do super poder 2 (%.2f)\n", superPoder2);
     printf("Resultado 1 para carta 1 resultado 0 para carta 2\n");
-    printf("Poder: %d\n", superPoder1 > superPoder2);
-    printf("População: %d\n", população > população2);
-    printf("Área: %d\n", area > area2);
-    printf("Pib: %d\n", pib > pib2);
-    printf("Pontos Turisticos: %d\n", pontosTuristicos > pontosTuristicos2);
-    printf("Pib Per Capita: %d\n", pibPercapita > pibPercapita2);
-    printf("Densidade Populacional: %d\n", densidade < densidade2);
+    printf("Poder: %s\n", superPoder1 > superPoder2 ? estado : estado2);
+    printf("População: %s\n", população > população2 ? estado : estado2);
+    printf("Área: %s\n", area > area2 ? estado : estado2);
+    printf("Pib: %s\n", pib > pib2 ? estado : estado2);
+    printf("Pontos Turisticos: %s\n", pontosTuristicos > pontosTuristicos2 ? estado : estado2);
+    printf("Pib Per Capita: %s\n", pibPercapita > pibPercapita2 ? estado : estado2);
+    printf("Densidade Populacional: %s\n", densidade < densidade2 ? estado : estado2);
     
 
     return 0;
